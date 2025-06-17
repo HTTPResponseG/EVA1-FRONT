@@ -14,3 +14,41 @@ body {
 
 
 }
+.footer {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.redes {
+  margin: 10px 0;
+}
+
+.icono {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+/* Iconos de redes sociales */
+.facebook {
+    background-image: url('../imagenes/fb.png');
+}
+.instagram {
+  background-image: url('../imagenes/ig.png');
+}
+
+
+.twitter {
+  background-image: url('../imagenes/tw.png');
+}
+
+.icono:hover {
+  transform: scale(1.1);
+}
