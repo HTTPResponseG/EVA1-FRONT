@@ -1,19 +1,12 @@
-/* Body general */
 body {
   background-image: url('../imagenes/fondo-red.png');
   background-repeat: no-repeat; 
   background-size: cover; 
+  background-position: center;
   margin: 0;
   padding: 0;
   height: 100vh;
   background-attachment: fixed;
-}
-
-.img-sushi {
-    width: 494.118px; 
-    height: 329.206px; 
-
-
 }
 * {
   margin: 0;
