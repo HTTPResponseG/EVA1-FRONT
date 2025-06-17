@@ -15,6 +15,15 @@ body {
 
 
 }
+
+.parrafo-principal-sushi {
+    color: aliceblue;
+}
+
+.subtitulo-menu {
+    color: rgb(215, 168, 48);
+
+}
 * {
   margin: 0;
   padding: 0;
