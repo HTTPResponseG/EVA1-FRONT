@@ -55,3 +55,59 @@ body {
 .nav-links a:hover {
   color: #fdd835;
 }
+
+
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* El contenido crece y empuja el footer hacia abajo */
+main {
+  flex: 1;
+}
+
+
+.footer {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+}
+
+/* Íconos */
+.redes {
+  margin: 10px 0;
+}
+
+.icono {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin: 0 10px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 35%;
+  transition: transform 0.3s;
+}
+
+.facebook {
+  background-image: url('../imagenes/fbb.png');
+}
+
+.instagram {
+  background-image: url('../imagenes/ig.png');
+}
+
+.twitter {
+  background-image: url('../imagenes/tw.png');
+}
+
+.icono:hover {
+  transform: scale(1.2);
+}
