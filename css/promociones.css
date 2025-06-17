@@ -34,13 +34,14 @@ body {
 #promociones p {
     font-size: 1.1rem;
     margin-bottom: 2rem;
+    color: #283747;
 }
 
 #promociones div {
     display: inline-block;
     width: 250px;
     margin: 1rem;
-    background-color: #FFFFFF;
+    background-color: #f5e1ce;
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
