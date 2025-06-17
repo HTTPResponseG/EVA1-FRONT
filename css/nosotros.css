@@ -111,3 +111,18 @@ main {
 .icono:hover {
   transform: scale(1.2);
 }
+
+/* Estilos para el logo con imagen */
+.logo {
+    display: flex;          /* Mantiene flexbox para alinear imagen y texto */
+    align-items: center;    /* Centra verticalmente */
+    gap: 10px;             /* Espacio entre imagen y texto */
+    font-size: 24px;       /* Hereda tus estilos actuales */
+    font-weight: bold;      /* Hereda tus estilos actuales */
+    color: white;          /* Hereda tus estilos actuales */
+}
+
+.logo-img {
+    height: 50px;          /* Ajusta según el tamaño de tu imagen */
+    width: auto;           /* Mantiene proporciones */
+}
