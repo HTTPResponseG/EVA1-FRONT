@@ -1,3 +1,4 @@
+/* Body general */
 body {
   background-image: url('../imagenes/fondo-red.png');
   background-repeat: no-repeat; 
@@ -14,41 +15,50 @@ body {
 
 
 }
-.footer {
-  background-color: #1a1a1a;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 60px;
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
   color: white;
-  text-align: center;
-  padding: 20px 0;
 }
 
-.redes {
-  margin: 10px 0;
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
 }
 
-.icono {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  margin: 0 10px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 50%;
-  transition: transform 0.3s;
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
-/* Iconos de redes sociales */
-.facebook {
-    background-image: url('../imagenes/fb.png');
-}
-.instagram {
-  background-image: url('../imagenes/ig.png');
-}
-
-
-.twitter {
-  background-image: url('../imagenes/tw.png');
-}
-
-.icono:hover {
-  transform: scale(1.1);
+.nav-links a:hover {
+  color: #fdd835;
 }
