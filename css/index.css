@@ -175,22 +175,22 @@ html, body {
 .icono:hover {
   transform: scale(1.2);
 }
-/* Estilos para el logo con imagen */
+
 .logo {
-    display: flex;          /* Mantiene flexbox para alinear imagen y texto */
-    align-items: center;    /* Centra verticalmente */
-    gap: 10px;             /* Espacio entre imagen y texto */
-    font-size: 24px;       /* Hereda tus estilos actuales */
-    font-weight: bold;      /* Hereda tus estilos actuales */
-    color: white;          /* Hereda tus estilos actuales */
+    display: flex;          
+    align-items: center;    
+    gap: 10px;             
+    font-size: 24px;       
+    font-weight: bold;      
+    color: white;          
 }
 
 .logo-img {
-    height: 150px;          /* Ajusta según el tamaño de tu imagen */
+    height: 150px;          
     width: auto;
     border-radius: 60%;
     border-color: #ffde59;
     border-style: solid;
     border-width: 5px;
-           /* Mantiene proporciones */
+           
 }
