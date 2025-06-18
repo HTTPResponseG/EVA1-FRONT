@@ -29,6 +29,7 @@ body {
     color: rgb(250, 234, 234);
     margin-top: 10rem;
     margin-bottom: 1rem;
+    font-family: 'East Sea Dokdo', cursive;
 }
 
 .promociones p {
@@ -69,6 +70,8 @@ body {
     color: rgb(250, 234, 234);
     margin-top: 0.3rem;
     margin-bottom: 0.5rem;
+    font-family: 'East Sea Dokdo', cursive;
+
 }
 
 .promociones2 p {
@@ -147,6 +150,8 @@ body {
     color: rgb(250, 234, 234);
     margin-top: 5rem;
     margin-bottom: 0.5rem;
+    font-family: 'East Sea Dokdo', cursive;
+
 }
 
 .promociones3 p {
