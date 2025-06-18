@@ -105,7 +105,7 @@ main {
     transform: scale(1.2);
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 768px) {
     .contacto-info {
         padding: 100px 20px;
@@ -116,22 +116,22 @@ main {
     }
 }
 
-/* Estilos para el logo con imagen */
+
 .logo {
-    display: flex;          /* Mantiene flexbox para alinear imagen y texto */
-    align-items: center;    /* Centra verticalmente */
-    gap: 10px;             /* Espacio entre imagen y texto */
-    font-size: 24px;       /* Hereda tus estilos actuales */
-    font-weight: bold;      /* Hereda tus estilos actuales */
-    color: white;          /* Hereda tus estilos actuales */
+    display: flex;          
+    align-items: center;    
+    gap: 10px;             
+    font-size: 24px;       
+    font-weight: bold;      
+    color: white;          
 }
 
 .logo-img {
-    height: 50px;          /* Ajusta según el tamaño de tu imagen */
-    width: auto;           /* Mantiene proporciones */
+    height: 50px;          
+    width: auto;           
 }
 
-/* Estilos del formulario de contacto con temática sushi */
+
 .contact-form-container {
     width: 100%;
     max-width: 600px;
@@ -236,11 +236,11 @@ main {
 
 
 .logo-img {
-    height: 150px;          /* Ajusta según el tamaño de tu imagen */
+    height: 150px;          
     width: auto;
     border-radius: 60%;
     border-color: #ffde59;
     border-style: solid;
     border-width: 5px;
-           /* Mantiene proporciones */
+           
 }
