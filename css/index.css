@@ -194,14 +194,16 @@ html, body {
     border-width: 5px;
            
 }
-
 /* Mini Galería Automática */
 .mini-galeria {
   width: 150px;
-  margin: 0 auto;
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: fixed; /* o 'absolute' dependiendo de tu layout */
+  left: 20px; /* Ajusta este valor para acercarlo más o menos al borde */
+  top: 50%; /* Centrado verticalmente */
+  transform: translateY(-50%); /* Ajuste fino para centrado vertical */
 }
 
 .galeria-automatica {
