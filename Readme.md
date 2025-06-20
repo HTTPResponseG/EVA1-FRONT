@@ -14,9 +14,9 @@ Este proyecto nos permitió practicar y aplicar:
 
 ## 👥 Colaboradores
 
-- Gustavo @HTTPResponseG
 - Cristóbal @peluca912 
 - Diego @RoaStack
+- Gustavo @HTTPResponseG
 
 Durante este proyecto aprendimos a usar **Git** y **GitHub** de forma colaborativa, incluyendo:
 
