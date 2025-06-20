@@ -244,3 +244,31 @@ main {
     border-width: 5px;
            
 }
+/* === RESPONSIVE DESIGN === */
+
+@media (max-width: 480px) {
+  .formulario {
+    padding: 20px;
+    width: 100%;
+  }
+
+  input, textarea, button {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .contenedor-contacto {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .formulario {
+    width: 90%;
+  }
+
+  .contenedor-contacto {
+    flex-direction: column;
+  }
+}

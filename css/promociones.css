@@ -197,3 +197,34 @@ main {
     border-width: 5px;
            
 }
+/* === RESPONSIVE DESIGN === */
+
+@media (max-width: 480px) {
+  .promociones-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .promo-card {
+    width: 100%;
+  }
+
+  .promo-card img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .promo-info {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .promociones-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .promo-card {
+    width: 100%;
+  }
+}

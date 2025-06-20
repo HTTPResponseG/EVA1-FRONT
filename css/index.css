@@ -231,3 +231,69 @@ html, body {
   35%, 65% { transform: translateX(-100%); }
   70%, 100% { transform: translateX(-200%); }
 }
+
+/* === RESPONSIVE DESIGN === */
+
+/* Móviles pequeños (hasta 480px) */
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    padding: 15px 20px;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hero img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+}
+
+/* Tablets (481px a 768px) */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 20px 30px;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-text {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+/* Escritorios medianos (769px a 1024px) */
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 20px 40px;
+  }
+
+  .hero {
+    padding: 40px;
+  }
+}

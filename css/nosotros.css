@@ -174,3 +174,34 @@ main {
     border-width: 5px;
            
 }
+
+/* === RESPONSIVE DESIGN === */
+
+@media (max-width: 480px) {
+  .nosotros-contenido {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .nosotros-contenido img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .nosotros-texto {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .nosotros-contenido {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nosotros-texto {
+    text-align: center;
+    width: 90%;
+  }
+}
