@@ -25,20 +25,21 @@ Durante este proyecto aprendimos a usar **Git** y **GitHub** de forma colaborati
 - Aprobación y **merge** a la rama `main`
 - Resolución de conflictos y trabajo en equipo
 
-## 🗂 Estructura del proyecto
-css/
-├── style.css
-├── promociones.css
-├── contacto.css
-├── nosotros.css
-images/
-├── (archivos de imagen)
-templates/
-├── promociones.html
-├── contacto.html
-├── nosotros.html
-├── index.html
-README.md
+##📁Estructura del proyecto
+├── css/                   # Hojas de estilo personalizadas
+│   ├── style.css          # Estilos generales
+│   ├── promociones.css    # Estilos para la sección de promociones
+│   ├── contacto.css       # Estilos para la sección de contacto
+│   └── nosotros.css       # Estilos para la sección de nosotros
+├── images/                # Archivos de imagen usados en el sitio
+│   └── (archivos de imagen)
+├── templates/             # Páginas HTML del sitio
+│   ├── index.html         # Página principal
+│   ├── promociones.html   # Página de promociones
+│   ├── contacto.html      # Página de contacto
+│   └── nosotros.html      # Página sobre nosotros
+└── README.md              # Documentación del proyecto
+
 
 ##Tecnologías utilizadas
 
