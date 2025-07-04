@@ -25,7 +25,8 @@ Durante este proyecto aprendimos a usar **Git** y **GitHub** de forma colaborati
 - Aprobación y **merge** a la rama `main`
 - Resolución de conflictos y trabajo en equipo
 
-##📁Estructura del proyecto
+## 🗂 Estructura del proyecto
+TU_PROYECTO/
 ├── css/                   # Hojas de estilo personalizadas
 │   ├── style.css          # Estilos generales
 │   ├── promociones.css    # Estilos para la sección de promociones
@@ -39,6 +40,7 @@ Durante este proyecto aprendimos a usar **Git** y **GitHub** de forma colaborati
 │   ├── contacto.html      # Página de contacto
 │   └── nosotros.html      # Página sobre nosotros
 └── README.md              # Documentación del proyecto
+
 
 
 ##Tecnologías utilizadas
