@@ -17,6 +17,17 @@ body {
   box-sizing: border-box;
 }
 
+/* Layout general */
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
 /* Estilo general de las secciones */
 .promociones, .promociones2, .promociones3 {
   padding: 2rem;
@@ -70,7 +81,7 @@ body {
   padding-bottom: 2rem;
 }
 
-/* Botón Pedir (sobreescribe estilo Bootstrap) */
+/* Botón Pedir (sobreescribe Bootstrap) */
 .btn-pedir {
   background-color: #e8c855 !important;
   color: #283747 !important;
@@ -88,8 +99,8 @@ body {
   background-color: #d4b12f !important;
 }
 
-/* NAVBAR */
-.navbar {
+/* NAVBAR personalizada (renombrada para evitar conflicto con Bootstrap) */
+.mi-navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -102,7 +113,7 @@ body {
   z-index: 10;
 }
 
-.logo {
+.mi-navbar .logo {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -111,7 +122,7 @@ body {
   color: white;
 }
 
-.logo-img {
+.mi-navbar .logo-img {
   height: 150px;
   width: auto;
   border-radius: 60%;
@@ -120,13 +131,15 @@ body {
   border-width: 5px;
 }
 
-.nav-links {
+.mi-navbar .nav-links {
   list-style: none;
   display: flex;
   gap: 30px;
+  padding-left: 0;
+  margin: 0;
 }
 
-.nav-links a {
+.mi-navbar .nav-links a {
   text-decoration: none;
   color: white;
   font-size: 16px;
@@ -134,7 +147,7 @@ body {
   transition: color 0.3s ease;
 }
 
-.nav-links a:hover {
+.mi-navbar .nav-links a:hover {
   color: #fdd835;
 }
 
@@ -146,7 +159,7 @@ body {
   padding: 5px 0;
 }
 
-/* Íconos */
+/* Íconos redes sociales */
 .redes {
   margin: 10px 0;
 }
@@ -178,21 +191,7 @@ body {
   transform: scale(1.2);
 }
 
-/* Layout general */
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  flex: 1;
-}
-
 /* === RESPONSIVE DESIGN === */
-
 @media (max-width: 768px) {
   .promociones, .promociones2, .promociones3 {
     flex-direction: column;
@@ -204,17 +203,17 @@ main {
     height: auto;
   }
 
-  .logo-img {
-    height: 100px;
-  }
-
-  .navbar {
+  .mi-navbar {
     flex-direction: column;
     gap: 10px;
     padding: 20px;
   }
 
-  .nav-links {
+  .mi-navbar .logo-img {
+    height: 100px;
+  }
+
+  .mi-navbar .nav-links {
     flex-direction: column;
     gap: 15px;
   }
