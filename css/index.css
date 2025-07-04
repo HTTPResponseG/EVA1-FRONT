@@ -24,8 +24,9 @@ html, body {
   flex-direction: column;
 }
 
-/* NAVBAR */
-.navbar {
+
+/* === NAVBAR Personalizada === */
+.mi-navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,19 +39,33 @@ html, body {
   z-index: 10;
 }
 
-.logo {
+.mi-navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 24px;
   font-weight: bold;
   color: white;
 }
 
-.nav-links {
+.mi-navbar .logo-img {
+  height: 150px;
+  width: auto;
+  border-radius: 60%;
+  border-color: #ffde59;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.mi-navbar .nav-links {
   list-style: none;
   display: flex;
   gap: 30px;
+  padding-left: 0;
+  margin: 0;
 }
 
-.nav-links a {
+.mi-navbar .nav-links a {
   text-decoration: none;
   color: white;
   font-size: 16px;
@@ -58,9 +73,10 @@ html, body {
   transition: color 0.3s ease;
 }
 
-.nav-links a:hover {
+.mi-navbar .nav-links a:hover {
   color: #fdd835;
 }
+
 
 /* HERO SECTION */
 .hero {
