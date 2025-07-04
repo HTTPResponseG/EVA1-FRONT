@@ -1,3 +1,4 @@
+/* Fondo y ajustes generales */
 body {
   background-image: url('../imagenes/fondo-red.png');
   background-repeat: no-repeat; 
@@ -7,82 +8,84 @@ body {
   padding: 0;
   height: 100vh;
   background-attachment: fixed;
+  font-family: 'Arial', sans-serif;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Arial', sans-serif;
-}/* Estilo general de las secciones */
+/* Estilo general de las secciones */
 .promociones, .promociones2, .promociones3 {
-    padding: 2rem;
-    text-align: center;
-    background-color: #e8c8551a;
-    margin: 5rem;
-    margin-top: 13rem;
+  padding: 2rem;
+  background-color: #e8c8551a;
+  margin: 5rem;
+  margin-top: 13rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 /* Título */
 .promociones h2, .promociones2 h2, .promociones3 h2 {
-    font-size: 2rem;
-    color: rgb(250, 234, 234);
-    font-family: 'East Sea Dokdo', cursive;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+  width: 100%;
+  font-size: 2rem;
+  color: rgb(250, 234, 234);
+  font-family: 'East Sea Dokdo', cursive;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 /* Card */
 .card {
-    display: inline-block;
-    width: 250px;
-    margin: 1rem;
-    background-color: #f5e1ce;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    vertical-align: top;
-    text-align: center;
-    height: 24rem;
+  width: 250px;
+  background-color: #f5e1ce;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  height: 24rem;
 }
 
 /* Imagen */
 .card img {
-    width: 100%;
-    height: 140px;
-    border-radius: 8px;
-    margin-bottom: 0.5rem;
-    object-fit: cover;
+  width: 100%;
+  height: 140px;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  object-fit: cover;
 }
 
 /* Texto */
 .card p {
-    font-size: 1.1rem;
-    color: #283747;
-    margin: 0.5rem 0;
-    height: 2.5rem;
-    padding-bottom: 2rem;
-
+  font-size: 1.1rem;
+  color: #283747;
+  margin: 0.5rem 0;
+  height: 2.5rem;
+  padding-bottom: 2rem;
 }
 
-/* Botón Pedir */
+/* Botón Pedir (sobreescribe estilo Bootstrap) */
 .btn-pedir {
-    background-color: #e8c855;
-    color: #283747;
-    border: none;
-    padding: 0.4rem 1rem;
-    font-size: 1rem;
-    font-family: 'East Sea Dokdo', cursive;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 3.5rem;
+  background-color: #e8c855 !important;
+  color: #283747 !important;
+  border: none;
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+  font-family: 'East Sea Dokdo', cursive;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 3.5rem;
 }
 
 .btn-pedir:hover {
-    background-color: #d4b12f;
+  background-color: #d4b12f !important;
 }
 
 /* NAVBAR */
@@ -100,9 +103,21 @@ body {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 24px;
   font-weight: bold;
   color: white;
+}
+
+.logo-img {
+  height: 150px;
+  width: auto;
+  border-radius: 60%;
+  border-color: #ffde59;
+  border-style: solid;
+  border-width: 5px;
 }
 
 .nav-links {
@@ -123,22 +138,7 @@ body {
   color: #fdd835;
 }
 
-
-
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-
-main {
-  flex: 1;
-}
-
-
+/* Footer */
 .footer {
   background-color: #1a1a1a;
   color: white;
@@ -178,53 +178,44 @@ main {
   transform: scale(1.2);
 }
 
-
-.logo {
-    display: flex;          
-    align-items: center;    
-    gap: 10px;             
-    font-size: 24px;       
-    font-weight: bold;     
-    color: white;          
+/* Layout general */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-.logo-img {
-    height: 150px;          
-    width: auto;
-    border-radius: 60%;
-    border-color: #ffde59;
-    border-style: solid;
-    border-width: 5px;
-           
+main {
+  flex: 1;
 }
+
 /* === RESPONSIVE DESIGN === */
 
-@media (max-width: 480px) {
-  .promociones-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
+@media (max-width: 768px) {
+  .promociones, .promociones2, .promociones3 {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .promo-card {
-    width: 100%;
-  }
-
-  .promo-card img {
-    max-width: 100%;
+  .card {
+    width: 90%;
     height: auto;
   }
 
-  .promo-info {
-    text-align: center;
-  }
-}
-
-@media (max-width: 768px) {
-  .promociones-grid {
-    grid-template-columns: 1fr 1fr;
+  .logo-img {
+    height: 100px;
   }
 
-  .promo-card {
-    width: 100%;
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
   }
 }
