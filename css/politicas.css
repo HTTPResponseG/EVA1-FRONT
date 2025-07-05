@@ -20,7 +20,7 @@ main {
     flex-direction: column;
 }
 
-/* === NAVBAR === */
+/* === NAVBAR Personalizada === */
 .mi-navbar {
   display: flex;
   justify-content: space-between;
@@ -28,10 +28,19 @@ main {
   padding: 25px 60px;
   background: transparent;
   position: absolute;
-  width: 100%;
+  width: 93.5%;
   top: 0;
   left: 0;
   z-index: 10;
+}
+
+.mi-navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
 }
 
 .mi-navbar .logo-img {
