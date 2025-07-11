@@ -8,10 +8,10 @@ botones.forEach(boton => {
 
     const alerta = document.createElement('div');
     alerta.className = 'alert alert-success alert-dismissible fade show';
-     alerta.role = 'alert';
+    alerta.role = 'alert';
     alerta.innerHTML = `
-      <strong>🍣 Pedido realizado:</strong> ${titulo}
-      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    <strong>🍣 Pedido realizado:</strong> ${titulo}
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     `;
 
     alertContainer.appendChild(alerta);
