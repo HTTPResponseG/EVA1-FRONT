@@ -26,20 +26,19 @@ Durante este proyecto aprendimos a usar **Git** y **GitHub** de forma colaborati
 - Resolución de conflictos y trabajo en equipo
 
 ## 📁Estructura del proyecto
-Sushi_Dev
-├── css/                   # Hojas de estilo personalizadas
-│   ├── style.css          # Estilos generales
-│   ├── promociones.css    # Estilos para la sección de promociones
-│   ├── contacto.css       # Estilos para la sección de contacto
-│   └── nosotros.css       # Estilos para la sección de nosotros
-├── images/                # Archivos de imagen usados en el sitio
-│   └── (archivos de imagen)
-├── templates/             # Páginas HTML del sitio
-│   ├── index.html         # Página principal
-│   ├── promociones.html   # Página de promociones
-│   ├── contacto.html      # Página de contacto
-│   └── nosotros.html      # Página sobre nosotros
-└── README.md              # Documentación del proyecto
+Sushi_Dev/
+├── css/ # Hojas de estilo personalizadas
+│ ├── style.css # Estilos generales
+│ ├── promociones.css # Estilos para promociones
+│ ├── contacto.css # Estilos para contacto
+│ └── nosotros.css # Estilos para nosotros
+├── images/ # Archivos de imagen del sitio
+├── templates/ # Páginas HTML del sitio
+│ ├── index.html # Página principal
+│ ├── promociones.html # Página de promociones
+│ ├── contacto.html # Página de contacto
+│ └── nosotros.html # Página sobre nosotros
+└── README.md # Documentación del proyecto
 
 
 
